@@ -1,0 +1,37 @@
+.wrapPage{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinha os itens ao topo */
+    flex-direction: column;
+    gap: 80px;
+    width: 100%; 
+    min-height: 100vh; 
+    padding: 20px; 
+}
+
+.wrapCards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 300px;
+    gap: 20px; /* Ajuste o gap para evitar sobreposição */
+    align-items: center; /* Alinha os itens no centro horizontal */
+}
+
+.btn_conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    gap: 20px;
+}
+
+.btn_conteiner button{
+    width: 300px;
+    border-radius: 10px;
+    transition: 200ms ease-in-out;
+}
+
+.btn_conteiner button:hover{
+    transform: scale(1.05);
+}

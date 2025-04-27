@@ -18,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+  },
+  {
+    path: "/View",
+    element: <View/>
   }
 ]);
 
